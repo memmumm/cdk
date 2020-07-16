@@ -6,6 +6,6 @@ from cdk_cloud_formation.cdk_cloud_formation_stack import CdkCloudFormationStack
 
 
 app = core.App()
-CdkCloudFormationStack(app, "cdk-cloud-formation", env={'region': 'us-west-2'})
+CdkCloudFormationStack(app, "cdk-cloud-formation", env={'region': 'eu-west-1'})
 
 app.synth()
